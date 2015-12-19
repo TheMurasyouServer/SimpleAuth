@@ -3,8 +3,8 @@ main: SimpleAuth\SimpleAuth
 version: 1.7.1
 api: 1.12.0
 load: STARTUP
-author: PocketMine Team
-authors: [shoghicp]
+author: nao20010128nao
+authors: [shoghicp,nao20010128nao]
 description: Prevents people to impersonate an account, requering registration and login when connecting.
 website: https://github.com/PocketMine/SimpleAuth
 commands:
