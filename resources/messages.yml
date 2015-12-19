@@ -1,27 +1,27 @@
 # SimpleAuth 1.4.0 language file
 
 join:
- message1: "This server requires account registration."
- message2: "You must authenticate to play."
- register: "Please register using: /register <password>"
- login: "Please log in using: /login <password>"
- popup: "You are not logged in"
+ message1: "このサーバーではログインが必要です。"
+ message2: "プレイするにはログインして下さい。"
+ register: "登録方法: /register <パスワード>"
+ login: "ログイン方法: /login <パスワード>"
+ popup: "ログインしていません"
 
 register:
- usage: "/register <password>"
- description: "Registers an account"
- permission: "You do not have permission to use the register command!"
+ usage: "/register <パスワード>"
+ description: "アカウントを登録します。"
+ permission: "登録コマンドを使用するための権限がありません。"
  error:
-  password: "Your password is too short!"
-  registered: "This account is already registered."
-  general: "Error during authentication."
+  password: "パスワードが短すぎます。"
+  registered: "すでに登録済みです。"
+  general: "認証中にエラーが発生しました。"
 
 login:
- usage: "/login <password>"
- description: "Logs into an account"
- permission: "You do not have permission to use the login command!"
- success: "You have been authenticated."
+ usage: "/login <パスワード>"
+ description: "アカウントにログインします。"
+ permission: "ログインコマンドを使用するための権限がありません。"
+ success: "認証しました。"
  error:
-  password: "Incorrect password!"
-  registered: "This account is not registered."
-  block: "Too many tries!"
+  password: "パスワードが違います。"
+  registered: "このアカウントは登録されていません。"
+  block: "何回パスワード打ってるですかぁ?"
